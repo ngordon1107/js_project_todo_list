@@ -71,22 +71,20 @@ function displayTodoLength(){
 
 function app(){
   console.log('Welcome to the Todo Application');
-  console.log('===============Adding initial values=================');
   // You will need to call your methods below this comment to edit the todos array
+  //Adding initial values:
   addTodo("Clean the living room", "Need to vacuum the all furniture with the pet dander attachment");
   addTodo("Mop b4throm floors", null ,"Bathroom is getting dirty");
   addTodo("Call Clark Kent");
   addTodo("Help mannie with homework", completed = false, "Science homework");
   addTodo("Do laundry", "tRue", "NA");
-  console.log(todos)
-  console.log("===============Editing second index=================");
+  //Editing second index:
   editTodo(2, "title" ,"Mop bathroom floors")
-  console.log('===============Deleting third index(Call Clark Kent)=================');
+  //Deleting third index: Call Clark Kent'
   removeTodo(3)
-  console.log('===============Marking fourth item (now third) as complete=================');
+  //Marking fourth item (now third) as complete'
   markTodoComplete(3)
   // You will need to call your methods above this comment to edit the todos array
-  console.log('===============Iterating Over To Do List=================');
   
   console.log('Here is a list of your todos:');
   if(errors.length > 0){
