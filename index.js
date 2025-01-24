@@ -56,7 +56,6 @@ function editTodo(item_index, category_being_updated, updated_item){
   else{ 
     return errors.push("Failed to update item. Invalid/missing category."); 
   }
-  console.log(todos);
 }
 
 
